@@ -1,0 +1,29 @@
+$font-stack: monospace, Helvetica, sans-serif;
+$site-blue: #26547c;
+$site-red: #EF476F;
+$site-yellow: #FFD166;
+$site-green: #06D6A0;
+$site-white: #FFFCF9;
+
+body {
+  background: $site-white;
+  font: 100% $font-stack;
+}
+
+.main {
+  max-width: 55rem;
+  margin: 2rem auto;
+  padding: 1rem 1rem;
+  font-size: 3rem;
+  text-align: center;
+  color: $site-blue;
+  border: 2px solid $site-red;
+}
+
+.content {
+  max-width: 48rem;
+  text-align: center;
+  margin: auto;
+  color: green;
+}
+
