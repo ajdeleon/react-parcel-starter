@@ -8,6 +8,8 @@ $site-white: #FFFCF9;
 body {
   background: $site-white;
   font: 100% $font-stack;
+  padding: 0;
+  margin: 0;
 }
 
 .main {
@@ -23,7 +25,30 @@ body {
 .content {
   max-width: 48rem;
   text-align: center;
-  margin: auto;
-  color: green;
+  margin: 1rem auto;
+  color: $site-green;
+}
+
+.info-card-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  text-align: center;
+  //vertical-align: top;
+  border: 2px solid $site-yellow;
+  color: $site-blue;
+  display: block;
+  //max-width: 24rem;
+  box-sizing: border-box;
+  transition: background-color 200ms linear;
+  transition: margin-left 200ms linear;
+  transition: margin-right 200ms linear;
+}
+
+.info-card-container:hover {
+  background-color: $site-red;
+  transition: background-color 200ms linear;
+  margin: 2rem;
+  transition: margin 200ms linear;
 }
 
