@@ -10,6 +10,24 @@ body {
   font: 100% $font-stack;
   padding: 0;
   margin: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyContainer {
+  flex: 1 0 auto;
+}
+
+.footerContainer {
+  flex-shrink: 0;
+}
+
+.footer {
+  display: flex;
 }
 
 .main {
@@ -47,8 +65,5 @@ body {
 
 .info-card-container:hover {
   background-color: $site-red;
-  transition: background-color 200ms linear;
-  margin: 2rem;
-  transition: margin 200ms linear;
 }
 
