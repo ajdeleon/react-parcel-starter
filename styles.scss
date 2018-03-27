@@ -26,8 +26,18 @@ body {
   flex-shrink: 0;
 }
 
-.footer {
+.footer ul {
   display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  
+  li {
+    a {
+      text-decoration: none;
+    color: $site-red;
+      
+    }
+  }
 }
 
 .main {
